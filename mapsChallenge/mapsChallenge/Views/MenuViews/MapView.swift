@@ -12,12 +12,11 @@ struct MapView: View {
     
     
     var body: some View {
-        
             GoogleMapView(
                 latitude: 20.54187661408799,
                 longitude: -103.47428148559878,
                 zoom: 16
             )
-            .edgesIgnoringSafeArea(.all)
+            .edgesIgnoringSafeArea(.top)
         }
 }

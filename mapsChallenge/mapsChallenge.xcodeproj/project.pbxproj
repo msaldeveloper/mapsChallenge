@@ -23,7 +23,6 @@
 		B47CB94C2CF685DB00E1C2A9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CB94B2CF685DB00E1C2A9 /* LoginView.swift */; };
 		B47CB94E2CF6895B00E1C2A9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CB94D2CF6895B00E1C2A9 /* LoginViewModel.swift */; };
 		B47CB9542CF69F5700E1C2A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CB9532CF69F5700E1C2A9 /* AppDelegate.swift */; };
-		B47CB9582CF6A1EF00E1C2A9 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CB9572CF6A1EF00E1C2A9 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,6 @@
 		B47CB94B2CF685DB00E1C2A9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B47CB94D2CF6895B00E1C2A9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		B47CB9532CF69F5700E1C2A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B47CB9572CF6A1EF00E1C2A9 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				B47CB94D2CF6895B00E1C2A9 /* LoginViewModel.swift */,
-				B47CB9572CF6A1EF00E1C2A9 /* City.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -341,7 +338,6 @@
 				B42D99662CF6AAE9008FE019 /* GoogleMapsView.swift in Sources */,
 				B47CB9432CF683DD00E1C2A9 /* MenuView.swift in Sources */,
 				B47CB94E2CF6895B00E1C2A9 /* LoginViewModel.swift in Sources */,
-				B47CB9582CF6A1EF00E1C2A9 /* City.swift in Sources */,
 				B47CB9492CF6853A00E1C2A9 /* SettingsView.swift in Sources */,
 				B47CB9472CF6850C00E1C2A9 /* UserInfo.swift in Sources */,
 				B47CB9162CF6820400E1C2A9 /* mapsChallengeApp.swift in Sources */,
