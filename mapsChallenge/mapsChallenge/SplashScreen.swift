@@ -12,7 +12,7 @@ struct SplashScreen: View {
     
     var body: some View {
         if isActive {
-            MenuView()//change for LoginView()
+            LoginView()//change for LoginView()
         }else {
             VStack {
                 Image("mapsLogo")

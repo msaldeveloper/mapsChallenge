@@ -92,6 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B42D99682CF6B552008FE019 /* LoginViews */ = {
+			isa = PBXGroup;
+			children = (
+				B47CB94B2CF685DB00E1C2A9 /* LoginView.swift */,
+			);
+			path = LoginViews;
+			sourceTree = "<group>";
+		};
+		B42D99692CF6B55D008FE019 /* GoogleMapsViews */ = {
+			isa = PBXGroup;
+			children = (
+				B42D99652CF6AAE9008FE019 /* GoogleMapsView.swift */,
+			);
+			path = GoogleMapsViews;
+			sourceTree = "<group>";
+		};
 		B47CB9092CF6820400E1C2A9 = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +133,6 @@
 			children = (
 				B42D99672CF6AC18008FE019 /* Info.plist */,
 				B47CB9412CF6833B00E1C2A9 /* Views */,
-				B47CB9402CF6833200E1C2A9 /* Models */,
 				B47CB93F2CF6830C00E1C2A9 /* ViewModels */,
 				B47CB9152CF6820400E1C2A9 /* mapsChallengeApp.swift */,
 				B47CB9532CF69F5700E1C2A9 /* AppDelegate.swift */,
@@ -162,20 +177,12 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		B47CB9402CF6833200E1C2A9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		B47CB9412CF6833B00E1C2A9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B47CB9422CF683DD00E1C2A9 /* MenuView.swift */,
+				B42D99692CF6B55D008FE019 /* GoogleMapsViews */,
+				B42D99682CF6B552008FE019 /* LoginViews */,
 				B47CB94A2CF6859C00E1C2A9 /* MenuViews */,
-				B47CB94B2CF685DB00E1C2A9 /* LoginView.swift */,
-				B42D99652CF6AAE9008FE019 /* GoogleMapsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +190,7 @@
 		B47CB94A2CF6859C00E1C2A9 /* MenuViews */ = {
 			isa = PBXGroup;
 			children = (
+				B47CB9422CF683DD00E1C2A9 /* MenuView.swift */,
 				B47CB9442CF684ED00E1C2A9 /* MapView.swift */,
 				B47CB9462CF6850C00E1C2A9 /* UserInfo.swift */,
 				B47CB9482CF6853A00E1C2A9 /* SettingsView.swift */,

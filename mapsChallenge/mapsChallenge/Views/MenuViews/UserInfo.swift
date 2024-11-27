@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct UserInfo: View {
+    let defaults = UserDefaults.standard
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack{
+                Text("nombre de usuario:")
+                Text("GeoVoy").font(.title)
+            }
+
+            HStack{
+                Text("Email:")
+                Text(verbatim: defaults.string(forKey: "Email") ?? "nadie").font(.title)
+            }
+                        
+        }
     }
 }
 
