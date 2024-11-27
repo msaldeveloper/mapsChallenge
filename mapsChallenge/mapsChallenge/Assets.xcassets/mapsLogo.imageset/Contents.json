@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Google_Maps_Logo_2020.svg.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
