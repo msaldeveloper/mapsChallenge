@@ -98,12 +98,12 @@
 			path = LoginViews;
 			sourceTree = "<group>";
 		};
-		B42D99692CF6B55D008FE019 /* GoogleMapsViews */ = {
+		B42D99692CF6B55D008FE019 /* GoogleMapsViewController */ = {
 			isa = PBXGroup;
 			children = (
 				B42D99652CF6AAE9008FE019 /* GoogleMapsView.swift */,
 			);
-			path = GoogleMapsViews;
+			path = GoogleMapsViewController;
 			sourceTree = "<group>";
 		};
 		B47CB9092CF6820400E1C2A9 = {
@@ -169,6 +169,7 @@
 		B47CB93F2CF6830C00E1C2A9 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B42D99692CF6B55D008FE019 /* GoogleMapsViewController */,
 				B47CB94D2CF6895B00E1C2A9 /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
@@ -177,7 +178,6 @@
 		B47CB9412CF6833B00E1C2A9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B42D99692CF6B55D008FE019 /* GoogleMapsViews */,
 				B42D99682CF6B552008FE019 /* LoginViews */,
 				B47CB94A2CF6859C00E1C2A9 /* MenuViews */,
 			);
